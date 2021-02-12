@@ -272,7 +272,7 @@ nav .nav-content .signup {
 }
 
 .search-box form .inner-form .input-field.second-wrap .btn-search:hover {
-    background: #deebff;
+    box-shadow: inset 0px 1px 20px 13px #cccccc78;
 }
 
 .search-box form .inner-form .input-field.second-wrap .btn-search:focus {
@@ -345,6 +345,10 @@ nav .nav-content .signup {
     font-size: 20px;
 }
 
+.info-button {
+    display: inline;
+}
+
 .info .info-button-icon {
     width: 35px;
     height: 35px;
@@ -352,8 +356,10 @@ nav .nav-content .signup {
     color: #0065fc;
     border: 1px solid #f2f2f2;
     border-radius: 25px;
-    float: left;
     margin-right: 10px;
+    padding-top: 4px;
+    display: inline-block;
+
 }
 
 .info .btn-round {
