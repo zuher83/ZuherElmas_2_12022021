@@ -289,6 +289,7 @@ nav .nav-content .signup {
 .filters {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .filters .filter-btn {
