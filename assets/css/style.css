@@ -113,6 +113,10 @@ nav .nav-content .nav-logo {
     flex: 1 0 auto;
 }
 
+nav .nav-content .nav-logo img {
+    max-width: 150px;
+}
+
 nav .nav-content .hosts {
     border-top: 2px solid #0065fc;
     color: #0065fc;
