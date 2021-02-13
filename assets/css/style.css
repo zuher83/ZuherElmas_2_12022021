@@ -614,3 +614,21 @@ h2.cards-title {
 .grey {
     color: #d9d9d9;
 }
+
+footer {
+    background-color: #f2f2f2;
+    padding-bottom: 25px; }
+
+#footer {
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 1680px; }
+#footer .col {
+    flex: 1 0 33%; }
+#footer .col > * {
+    padding: 0 20px; }
+#footer .col h3 {
+    font-weight: bold; }
