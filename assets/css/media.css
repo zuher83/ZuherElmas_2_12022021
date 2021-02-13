@@ -1,0 +1,12 @@
+@media all and (max-width: 576px) {
+    #head-title h1 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+
+    #head-title h2 {
+        margin-top: 0;
+        font-size: 1.1rem;
+    }
+}
