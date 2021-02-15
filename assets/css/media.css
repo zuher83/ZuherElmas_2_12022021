@@ -311,6 +311,7 @@
 
     #footer .col {
         flex: 1 0 100%;
+        margin-bottom: 15px;
     }
 
 }
