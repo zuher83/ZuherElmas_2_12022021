@@ -194,12 +194,12 @@
         background-color: transparent;
     }
 
-    #aside {
+    #right-col {
         flex: 0 0 100%;
         order: 1;
     }
 
-    #aside h2 {
+    #right-col h2 {
         margin-left: 20px;
         font-size: 1.6em;
         width: 100%;
@@ -357,7 +357,7 @@
         font-size: 15px;
     }
 
-    #aside h2 {
+    #right-col h2 {
         font-size: 1.3rem;
     }
 

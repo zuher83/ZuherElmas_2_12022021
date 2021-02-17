@@ -383,13 +383,13 @@ main {
     flex: 0 0 70%;
 }
 
-#aside {
+#right-col {
     margin-top: 50px;
     margin-bottom: 50px;
     flex: 0 0 30%;
 }
 
-#aside h2 {
+#right-col h2 {
     font-weight: bold;
     margin-left: 20px;
     font-size: 1.8em;
