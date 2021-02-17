@@ -241,20 +241,8 @@
         padding: 15px 0 0 10px;
     }
 
-    .card-horizontal,
-    .card-img {
-        border-radius: 1rem;
-    }
-
-    .card-img img {
-        border-top-right-radius: 1rem;
-        border-top-left-radius: 1rem;
-    }
-
     .card-horizontal .card-left-img img {
         width: 100%;
-        border-top-left-radius: 1rem;
-        border-bottom-left-radius: 1rem;
         height: 150px;
     }
 
@@ -321,7 +309,6 @@
         flex: 1 0 100%;
         margin-bottom: 15px;
     }
-
 }
 
 
@@ -375,8 +362,6 @@
     }
 
     .card-horizontal .card-left-img img {
-        border-top-left-radius: 2rem;
-        border-bottom-left-radius: 2rem;
         height: 150px;
     }
 
