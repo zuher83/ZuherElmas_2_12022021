@@ -105,16 +105,22 @@
     nav .nav-content .nav-logo {
         flex: 0 0 50%;
         order: 1;
+        padding-top: 15px;
+    }
+
+    nav .nav-content .nav-logo img {
+        max-width: 100px;
+        padding: 5px 0 0 15px;
     }
 
     nav .nav-content .hosts {
         border-top: none;
         color: #0065fc;
         order: 3;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         flex: 0 0 50%;
     }
 
@@ -122,9 +128,9 @@
         border-top: none;
         flex: 0 0 50%;
         order: 4;
-        border-bottom: 2px solid #eee;
+        border-bottom: 3px solid #eee;
         padding-top: 10px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         text-align: center;
     }
 
@@ -137,6 +143,7 @@
         flex: 0 0 50%;
         order: 2;
         text-align: right;
+        padding: 30px 20px 10px 0;
     }
 
     nav .nav-content .signup a {
@@ -212,6 +219,7 @@
 
     .filters .filter-btn .btn-round {
         padding: 0 15px 0 1px;
+        margin-left: 60px;
     }
 
     .filters > h2 {
