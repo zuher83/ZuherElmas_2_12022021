@@ -261,6 +261,7 @@
 
     #activity .col-1,
     #activity .col-2 {
+        flex: 0 0 100%;
         max-width: 100%;
     }
 
@@ -285,7 +286,10 @@
     #activity .line {
         margin-right: 0;
         margin-left: 0;
-        display: block;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        flex: 1 0 100%;
     }
 
     #activity h2 {
